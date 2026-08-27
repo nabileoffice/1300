@@ -5,7 +5,24 @@ body {
     margin: 0;
     padding: 10px; /* تم تقليل الحشوة من 20 إلى 10 */
     text-align: center;
-   
+}
+
+.site-header {
+    margin: -10px -10px 10px;
+    padding: 12px 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dcdde1;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-titles h1 {
+    margin: 0;
 }
   .header-logo {
       height: 130px; 
@@ -102,6 +119,35 @@ button:hover:not(:disabled) {
     max-width: 600px;
     margin: 0 auto; 
 }
+
+#state {
+    color: #2c3e50;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#out {
+    background: #505050;
+    color: #f5f7f8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 15px;
+    text-align: left;
+    height: 180px;
+    margin: 0 auto;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-radius: 12px;
+    box-shadow: inset 8px 10px 1.5px rgba(56, 59, 68, 0.829);
+    width: 80%;
+    max-width: 600px;
+}
+
+.ok { color: #2f7d4a; }
+.bad { color: #b92727; }
+.warn { color: #9a6810; }
 
 /* خيارات الكيرنل */
 #kernel-options {
