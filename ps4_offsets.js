@@ -448,6 +448,6 @@ export function offsetsFor(uaString) {
     const m = (uaString || "").match(/PlayStation\s+4[\/ ](\d+)\.(\d+)/);
     if (!m) return { key: null, off: null };
 
-    const key = m[1] + "." + parseInt(m[2], 16).toString(16).padStart(2, "0");
+    const key = m[1] + "." + parseInt(m[2], 10).toString(10).padStart(2, "0");
     return { key, off: PS4[key] || null };
 }
