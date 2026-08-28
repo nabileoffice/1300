@@ -69,6 +69,14 @@
       "cache_entry_type": 4
     },
     {
+      "url": "https://raw-game.com/zrm/patches/900.bin",
+      "local_path": "patches/900.bin",
+      "mime_type": "application/octet-stream",
+      "status_code": 200,
+      "size": 632,
+      "cache_entry_type": 4
+    },
+    {
       "url": "https://raw-game.com/zrm/patches/1100.bin",
       "local_path": "patches/1100.bin",
       "mime_type": "application/octet-stream",
